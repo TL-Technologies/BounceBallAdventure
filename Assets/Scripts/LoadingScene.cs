@@ -17,7 +17,6 @@ public class LoadingScene : MonoBehaviour
     {
         currentTimer = 0.0f;
         Application.targetFrameRate = 60;
-        AdsControl.Instance.ShowBannerAd();
     }
 
     // Update is called once per frame
@@ -28,7 +27,6 @@ public class LoadingScene : MonoBehaviour
 
         if(currentTimer >= loadingTimer)
         {
-            AdsControl.Instance.HideBannerAd();
             int currentLevel = PlayerPrefs.GetInt("CurrentLevel");
 
             if(currentLevel == 0)

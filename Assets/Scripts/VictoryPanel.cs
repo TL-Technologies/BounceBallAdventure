@@ -110,10 +110,7 @@ public class VictoryPanel : MonoBehaviour
         RefreshCharacter();
     }
 
-    public void TryCharRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.TRY_CHARACTER);
-    }
+   
 
     public void GetChar()
     {
@@ -121,11 +118,7 @@ public class VictoryPanel : MonoBehaviour
         GameManager.instance.skinData.RefreshData();
         RefreshCharacter();
     }
-
-    public void GetCharRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.GET_CHARACTER);
-    }
+    
 
     public void BuyChar()
     {
@@ -159,7 +152,6 @@ public class VictoryPanel : MonoBehaviour
         UpdateCoinPanel();
         GameManager.instance.SaveData();
 
-        AdsControl.Instance.ShowInterstitalRandom();
     }
 
    
@@ -198,7 +190,6 @@ public class VictoryPanel : MonoBehaviour
         levelTxt.text = "LEVEL " + GameManager.instance.levelIndex;
         UpdateCoinPanel();
         GameManager.instance.SaveData();
-        AdsControl.Instance.ShowInterstitalRandom();
     }
 
     public void HidePanel()
@@ -241,17 +232,7 @@ public class VictoryPanel : MonoBehaviour
     {
         GameManager.instance.NextScene();
     }
-
-    public void GetBonusLifeRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.BONUS_LIFE);
-    }
-
-    public void GetBonusCoinRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.BONUS_COIN);
-    }
-
+    
     public void Rate()
     {
         Application.OpenURL(gameUrl);

@@ -25,11 +25,7 @@ public class Retrive : MonoBehaviour
         GameManager.instance.RevertPlayer();
         gameObject.SetActive(false);
     }
-
-    public void RevertRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.RETRIVE);
-    }
+    
 
 
     public void Close()

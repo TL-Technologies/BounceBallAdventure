@@ -56,7 +56,6 @@ public class Items : MonoBehaviour
                     break;
 
                 case ItemType.MAGNET:
-                    ShowMagnetRW();
                     break;
             }
 
@@ -64,10 +63,5 @@ public class Items : MonoBehaviour
             Instantiate(itemFx, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
-    }
-
-    void ShowMagnetRW()
-    {
-        AdsControl.Instance.ShowRewardedAd(AdsControl.REWARD_TYPE.BONUS_MAGNET);
     }
 }
