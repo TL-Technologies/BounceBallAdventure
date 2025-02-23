@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Parallax_Wrap_Bosque_3
+  - Token
+  - Enemy
+  - Door
+  - TravelPoint
+  - Ground
+  - Dangers
+  - LevelManager
+  - Particles
+  - Parallax_Wrap
+  - Parallax
+  - Rocks
+  - Water
+  - Water_Trigger
+  - Checkpoints
+  - disabledcollision
+  - MovingPlatform
+  - Fx
+  - FxTemporaire
+  - Round_enemy
+  - Screaming
+  - OhZone
+  - Turret
+  - Arrow
+  - Stone
+  - Box
+  - Pickable
+  - CoinTarget
+  - Health
+  - Rain
+  - Pilar
+  - Magnet
+  - Friend
+  - Switch
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Parallax0
+  - Parallax1
+  - Parallax2
+  - Parallax3
+  - Ground
+  - Magnet
+  - Hole
+  - Player
+  - 
+  - Enemy
+  - Spring
+  - 
+  - 
+  - Stones
+  - 
+  - Spin
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spikes
+  - PhysObjects
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BehindParticles
+    uniqueID: 3243765239
+    locked: 0
+  - name: BehindPlayer
+    uniqueID: 3985833701
+    locked: 0
+  - name: PhysObjects
+    uniqueID: 3550147659
+    locked: 0
+  - name: Player
+    uniqueID: 4051552679
+    locked: 0
+  - name: Water
+    uniqueID: 158832699
+    locked: 0
+  - name: Ground
+    uniqueID: 480075591
+    locked: 0
+  - name: Particles
+    uniqueID: 1287715919
+    locked: 0
+  - name: FrontGround
+    uniqueID: 3323129185
+    locked: 0
+  - name: RocksAndBoxes
+    uniqueID: 460073243
+    locked: 0
+  - name: FlyingEnemies
+    uniqueID: 721113255
+    locked: 0
+  - name: FrontalEnvironment
+    uniqueID: 2904706837
+    locked: 0
+  - name: FrontParticles
+    uniqueID: 3242059563
+    locked: 0

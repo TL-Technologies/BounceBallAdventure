@@ -1,0 +1,62 @@
+
+tu3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+173
+  rotate: false
+  xy: 523, 306
+  size: 172, 187
+  orig: 172, 187
+  offset: 0, 0
+  index: -1
+DoorBg
+  rotate: false
+  xy: 523, 124
+  size: 122, 180
+  orig: 122, 180
+  offset: 0, 0
+  index: -1
+DoorLeft
+  rotate: true
+  xy: 457, 16
+  size: 53, 147
+  orig: 53, 147
+  offset: 0, 0
+  index: -1
+DoorRight
+  rotate: true
+  xy: 606, 69
+  size: 53, 147
+  orig: 53, 147
+  offset: 0, 0
+  index: -1
+DoorWheel
+  rotate: true
+  xy: 647, 157
+  size: 147, 140
+  orig: 147, 140
+  offset: 0, 0
+  index: -1
+Group 2 (merged)
+  rotate: false
+  xy: 2, 71
+  size: 519, 422
+  orig: 519, 422
+  offset: 0, 0
+  index: -1
+Group 7 (merged) copy 2
+  rotate: false
+  xy: 2, 2
+  size: 453, 67
+  orig: 453, 67
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: false
+  xy: 606, 5
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

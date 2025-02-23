@@ -1,0 +1,76 @@
+
+Round_enemy2.png
+size: 626,496
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/back
+  rotate: false
+  xy: 2, 234
+  size: 260, 260
+  orig: 262, 262
+  offset: 1, 1
+  index: -1
+1/body
+  rotate: false
+  xy: 233, 4
+  size: 228, 228
+  orig: 230, 230
+  offset: 1, 1
+  index: -1
+1/brow
+  rotate: false
+  xy: 463, 122
+  size: 150, 54
+  orig: 152, 56
+  offset: 1, 1
+  index: -1
+1/eye
+  rotate: false
+  xy: 526, 426
+  size: 98, 68
+  orig: 102, 71
+  offset: 2, 2
+  index: -1
+2/eye
+  rotate: false
+  xy: 526, 426
+  size: 98, 68
+  orig: 102, 71
+  offset: 2, 2
+  index: -1
+1/mouth
+  rotate: false
+  xy: 463, 62
+  size: 135, 58
+  orig: 137, 60
+  offset: 1, 1
+  index: -1
+2/back
+  rotate: false
+  xy: 264, 234
+  size: 260, 260
+  orig: 262, 262
+  offset: 1, 1
+  index: -1
+2/body
+  rotate: false
+  xy: 2, 2
+  size: 229, 230
+  orig: 230, 230
+  offset: 1, 0
+  index: -1
+2/brow
+  rotate: false
+  xy: 463, 178
+  size: 151, 54
+  orig: 152, 56
+  offset: 1, 1
+  index: -1
+2/mouth
+  rotate: false
+  xy: 463, 2
+  size: 135, 58
+  orig: 137, 60
+  offset: 1, 1
+  index: -1

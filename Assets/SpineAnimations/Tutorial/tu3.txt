@@ -1,0 +1,121 @@
+{
+"skeleton": {
+	"hash": "E0ejzMvaVVRFR3yeenY2k7qyazg",
+	"spine": "3.8.99",
+	"x": -254.35,
+	"y": -2.49,
+	"width": 519,
+	"height": 422,
+	"images": "./images/",
+	"audio": "D:/Red Ball 5 Remake/tu3"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "x": -127.71, "y": 196.29 },
+	{ "name": "bone", "parent": "bone2", "x": -0.35, "y": 37.21 },
+	{ "name": "Layer 1", "parent": "root", "x": 77.28, "y": 278.19 },
+	{ "name": "DoorLeft", "parent": "root", "length": 51.1, "rotation": 0.78, "x": 27.26, "y": 271.41 },
+	{ "name": "DoorRight", "parent": "root", "length": 50.67, "rotation": 178.64, "x": 129.1, "y": 269.95 }
+],
+"slots": [
+	{ "name": "Group 2 (merged)", "bone": "root", "attachment": "Group 2 (merged)" },
+	{ "name": "DoorBg", "bone": "root", "attachment": "DoorBg" },
+	{ "name": "DoorWheel", "bone": "Layer 1", "attachment": "DoorWheel" },
+	{ "name": "DoorLeft", "bone": "DoorLeft", "attachment": "DoorLeft" },
+	{ "name": "DoorRight", "bone": "DoorRight", "attachment": "DoorRight" },
+	{ "name": "173", "bone": "root", "attachment": "173" },
+	{ "name": "Layer 1", "bone": "bone", "attachment": "Layer 1" },
+	{ "name": "Group 7 (merged) copy 2", "bone": "root", "attachment": "Group 7 (merged) copy 2" },
+	{ "name": "0", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"173": {
+				"173": { "x": 77.65, "y": 288.01, "width": 172, "height": 187 }
+			},
+			"DoorBg": {
+				"DoorBg": { "x": 77.65, "y": 254.51, "width": 122, "height": 180 }
+			},
+			"DoorLeft": {
+				"DoorLeft": { "x": 25.91, "y": 1.25, "rotation": -0.78, "width": 53, "height": 147 }
+			},
+			"DoorRight": {
+				"DoorRight": { "x": 25.02, "y": -2.47, "rotation": -178.64, "width": 53, "height": 147 }
+			},
+			"DoorWheel": {
+				"DoorWheel": { "x": 0.87, "y": -4.68, "width": 147, "height": 140 }
+			},
+			"Group 2 (merged)": {
+				"Group 2 (merged)": { "x": 5.15, "y": 208.51, "width": 519, "height": 422 }
+			},
+			"Group 7 (merged) copy 2": {
+				"Group 7 (merged) copy 2": { "x": 1.15, "y": 173.01, "width": 453, "height": 67 }
+			},
+			"Layer 1": {
+				"Layer 1": { "width": 62, "height": 62 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"DoorLeft": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": -0.066 }
+				]
+			},
+			"DoorRight": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 0.003 }
+				]
+			},
+			"Layer 1": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 80.73 },
+					{ "time": 0.6667, "angle": 156.85 },
+					{ "time": 1, "angle": -125.58 },
+					{ "time": 1.3333, "angle": -5.85 },
+					{ "time": 1.6667, "angle": 80.69 },
+					{ "time": 2, "angle": -168.12 },
+					{ "time": 2.3333, "angle": -57.72 },
+					{ "time": 2.6667, "angle": 81.17 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 1.1667, "x": 204.94 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.6667, "angle": -66.89 },
+					{ "time": 0.8333, "angle": -147.07 },
+					{ "time": 1, "angle": 69.46 },
+					{ "time": 1.1667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": 0.143, "c2": 0.56, "c3": 0.648 },
+					{ "time": 1.6667, "y": 40.83 }
+				],
+				"scale": [
+					{ "time": 1.6667 },
+					{ "time": 1.8, "x": 1.2, "y": 1.2 },
+					{ "time": 2.1667, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

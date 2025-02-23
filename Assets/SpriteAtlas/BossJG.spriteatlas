@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "BossJG"
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: cd41e930d3c74a11b58bfbd9a11ee8d5, type: 3}
+    - {fileID: 21300000, guid: 831b7db2796140ccb9387fc48e954f33, type: 3}
+    - {fileID: 21300000, guid: ede1c3f68cc7476fb01f2ed1c885c894, type: 3}
+    - {fileID: 21300000, guid: 767e87f69d7f44e7b45efca2b6df5491, type: 3}
+    - {fileID: 21300000, guid: a4c36742effc44bd89de82bd6c8188ad, type: 3}
+    - {fileID: 21300000, guid: d1e2d64f14b549c6a3c073d0502a1b3b, type: 3}
+    - {fileID: 21300000, guid: efe39d52b1454b0896a32b533df42bef, type: 3}
+    - {fileID: 21300000, guid: b58b1788f494452ea89ab19c4727c666, type: 3}
+    - {fileID: 21300000, guid: 9a9a693fe73b47818288bc9a12e44917, type: 3}
+    - {fileID: 21300000, guid: eae366f22e89464c8489c758d0b87c5f, type: 3}
+    - {fileID: 21300000, guid: 427a267f105147e39242f4e9a1c226df, type: 3}
+    totalSpriteSurfaceArea: 0
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_Tag: "BossJG"
+  m_IsVariant: 0

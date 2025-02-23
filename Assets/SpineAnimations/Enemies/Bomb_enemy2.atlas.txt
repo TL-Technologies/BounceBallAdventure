@@ -1,0 +1,90 @@
+
+Bomb_enemy2.png
+size: 550,384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Ellipse 2 copy 2
+  rotate: false
+  xy: 2, 126
+  size: 270, 256
+  orig: 272, 258
+  offset: 1, 1
+  index: -1
+1/Layer 10
+  rotate: false
+  xy: 481, 69
+  size: 67, 55
+  orig: 69, 58
+  offset: 1, 1
+  index: -1
+2/Layer 10
+  rotate: false
+  xy: 481, 69
+  size: 67, 55
+  orig: 69, 58
+  offset: 1, 1
+  index: -1
+1/Layer 15 copy
+  rotate: false
+  xy: 481, 12
+  size: 67, 55
+  orig: 69, 58
+  offset: 1, 1
+  index: -1
+2/Layer 15 copy
+  rotate: false
+  xy: 481, 12
+  size: 67, 55
+  orig: 69, 58
+  offset: 1, 1
+  index: -1
+1/mouth
+  rotate: false
+  xy: 125, 7
+  size: 166, 44
+  orig: 168, 46
+  offset: 1, 1
+  index: -1
+1/oc
+  rotate: false
+  xy: 125, 53
+  size: 176, 71
+  orig: 178, 73
+  offset: 1, 1
+  index: -1
+1/rope
+  rotate: false
+  xy: 2, 2
+  size: 121, 122
+  orig: 121, 122
+  offset: 0, 0
+  index: -1
+2/rope
+  rotate: false
+  xy: 2, 2
+  size: 121, 122
+  orig: 121, 122
+  offset: 0, 0
+  index: -1
+2/Ellipse 2 copy 2
+  rotate: false
+  xy: 274, 126
+  size: 269, 256
+  orig: 272, 258
+  offset: 1, 1
+  index: -1
+2/mouth
+  rotate: false
+  xy: 293, 7
+  size: 166, 44
+  orig: 168, 46
+  offset: 1, 1
+  index: -1
+2/oc
+  rotate: false
+  xy: 303, 53
+  size: 176, 71
+  orig: 178, 73
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,202 @@
+
+Bomb_enemy1.png
+size: 680,521
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/body
+  rotate: false
+  xy: 2, 274
+  size: 246, 245
+  orig: 246, 245
+  offset: 0, 0
+  index: -1
+1/eyeL1
+  rotate: false
+  xy: 595, 226
+  size: 83, 111
+  orig: 85, 113
+  offset: 1, 1
+  index: -1
+1/eyeL2
+  rotate: false
+  xy: 499, 29
+  size: 45, 53
+  orig: 47, 55
+  offset: 1, 1
+  index: -1
+2/eyeL2
+  rotate: false
+  xy: 499, 29
+  size: 45, 53
+  orig: 47, 55
+  offset: 1, 1
+  index: -1
+1/eyeL3
+  rotate: false
+  xy: 593, 39
+  size: 38, 35
+  orig: 40, 37
+  offset: 1, 1
+  index: -1
+2/eyeL3
+  rotate: false
+  xy: 593, 39
+  size: 38, 35
+  orig: 40, 37
+  offset: 1, 1
+  index: -1
+1/eyeR1
+  rotate: false
+  xy: 584, 113
+  size: 83, 111
+  orig: 85, 113
+  offset: 1, 1
+  index: -1
+1/eyeR2
+  rotate: false
+  xy: 546, 29
+  size: 45, 53
+  orig: 47, 55
+  offset: 1, 1
+  index: -1
+2/eyeR2
+  rotate: false
+  xy: 546, 29
+  size: 45, 53
+  orig: 47, 55
+  offset: 1, 1
+  index: -1
+1/eyeR3
+  rotate: false
+  xy: 593, 2
+  size: 38, 35
+  orig: 40, 37
+  offset: 1, 1
+  index: -1
+2/eyeR3
+  rotate: false
+  xy: 593, 2
+  size: 38, 35
+  orig: 40, 37
+  offset: 1, 1
+  index: -1
+1/face
+  rotate: false
+  xy: 250, 202
+  size: 247, 193
+  orig: 247, 195
+  offset: 0, 0
+  index: -1
+1/horn
+  rotate: false
+  xy: 250, 459
+  size: 256, 60
+  orig: 258, 62
+  offset: 1, 1
+  index: -1
+1/mouth1
+  rotate: false
+  xy: 499, 339
+  size: 151, 54
+  orig: 153, 56
+  offset: 1, 1
+  index: -1
+2/mouth1
+  rotate: false
+  xy: 499, 339
+  size: 151, 54
+  orig: 153, 56
+  offset: 1, 1
+  index: -1
+1/mouth2
+  rotate: false
+  xy: 508, 458
+  size: 152, 61
+  orig: 154, 63
+  offset: 1, 1
+  index: -1
+1/teeth1
+  rotate: false
+  xy: 2, 9
+  size: 130, 16
+  orig: 135, 22
+  offset: 3, 1
+  index: -1
+2/teeth1
+  rotate: false
+  xy: 2, 9
+  size: 130, 16
+  orig: 135, 22
+  offset: 3, 1
+  index: -1
+1/teeth2
+  rotate: false
+  xy: 499, 310
+  size: 94, 27
+  orig: 96, 29
+  offset: 1, 1
+  index: -1
+2/teeth2
+  rotate: false
+  xy: 499, 310
+  size: 94, 27
+  orig: 96, 29
+  offset: 1, 1
+  index: -1
+1/tie
+  rotate: false
+  xy: 593, 76
+  size: 62, 35
+  orig: 64, 37
+  offset: 1, 1
+  index: -1
+2/tie
+  rotate: false
+  xy: 593, 76
+  size: 62, 35
+  orig: 64, 37
+  offset: 1, 1
+  index: -1
+2/body
+  rotate: false
+  xy: 2, 27
+  size: 246, 245
+  orig: 246, 245
+  offset: 0, 0
+  index: -1
+2/eyeL1
+  rotate: false
+  xy: 499, 197
+  size: 83, 111
+  orig: 85, 113
+  offset: 1, 1
+  index: -1
+2/eyeR1
+  rotate: false
+  xy: 499, 84
+  size: 83, 111
+  orig: 85, 113
+  offset: 1, 1
+  index: -1
+2/face
+  rotate: false
+  xy: 250, 7
+  size: 247, 193
+  orig: 247, 195
+  offset: 0, 0
+  index: -1
+2/horn
+  rotate: false
+  xy: 250, 397
+  size: 256, 60
+  orig: 258, 62
+  offset: 1, 1
+  index: -1
+2/mouth2
+  rotate: false
+  xy: 508, 395
+  size: 152, 61
+  orig: 154, 63
+  offset: 1, 1
+  index: -1

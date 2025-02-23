@@ -1,0 +1,48 @@
+
+tu1.png
+size: 711,425
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 644, 18
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+arrow left
+  rotate: false
+  xy: 503, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2, 3
+  size: 499, 420
+  orig: 499, 420
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 581, 17
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+image_2020_08_01T10_42_19_472Z
+  rotate: true
+  xy: 503, 147
+  size: 276, 206
+  orig: 276, 206
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 503, 80
+  size: 178, 65
+  orig: 178, 65
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "JellyButtonLevels2"
+  m_Controller: {fileID: 9100000, guid: 84ca6f83b8af474a8c10da32b88ea36b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f5a44cbf31e04fffb2977debecda6f35, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 334e31f1b96545f2a08334b67344423e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 93dcce5188d84affb6ecce18a592e2de, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fd6ea2fad1e549afb4a63ec57dde5872, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d38b6ba667144331916699515d9d8204, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5f59b301e07c46c6b9ccbc80f170c21f, type: 2}

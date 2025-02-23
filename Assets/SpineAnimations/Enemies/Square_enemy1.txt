@@ -1,0 +1,670 @@
+{
+"skeleton": { "hash": "aIkDYv7e64+u793XeoaB4qhFKYo", "spine": "3.8.99", "x": -135.27, "y": -4.47, "width": 260, "height": 252 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "mask", "parent": "root", "length": 61.63, "rotation": 90 },
+	{ "name": "body", "parent": "root", "length": 34.78, "rotation": 90, "y": -0.33 },
+	{ "name": "mask2", "parent": "mask", "rotation": -90, "x": 127.56, "transform": "noScale" },
+	{ "name": "eyeL", "parent": "mask2", "rotation": 90, "x": -63, "y": -22.4, "transform": "noScale" },
+	{ "name": "eyeR", "parent": "mask2", "rotation": 90, "x": 63.56, "y": -19.04, "transform": "noScale" },
+	{ "name": "white_eye", "parent": "mask2", "rotation": 90, "y": 13.98 },
+	{ "name": "mask3", "parent": "mask2", "rotation": 90, "y": 28.72, "transform": "noScale" },
+	{ "name": "mouth", "parent": "mask", "x": 71.67, "y": 0.01, "transform": "noScale" },
+	{ "name": "teath1", "parent": "mouth", "x": -8.24, "transform": "noScale" },
+	{ "name": "teath2", "parent": "mouth", "x": -25.44, "y": -5.8, "transform": "noScale" },
+	{
+		"name": "leaf1",
+		"parent": "body",
+		"length": 67.92,
+		"rotation": 150.55,
+		"x": 52.52,
+		"y": 73.81,
+		"transform": "onlyTranslation"
+	},
+	{
+		"name": "leaf2",
+		"parent": "body",
+		"length": 63.68,
+		"rotation": 179.49,
+		"x": 43.75,
+		"y": 69.28,
+		"transform": "onlyTranslation"
+	},
+	{
+		"name": "leaf6",
+		"parent": "body",
+		"length": 68.34,
+		"rotation": -149.93,
+		"x": 34.69,
+		"y": 68.72,
+		"transform": "onlyTranslation"
+	},
+	{
+		"name": "leaf3",
+		"parent": "body",
+		"length": 69.85,
+		"rotation": 53.73,
+		"x": 58.75,
+		"y": -79.11,
+		"transform": "onlyTranslation"
+	},
+	{
+		"name": "leaf4",
+		"parent": "body",
+		"length": 58.74,
+		"rotation": 32.01,
+		"x": 39.22,
+		"y": -71.47,
+		"transform": "onlyTranslation"
+	},
+	{
+		"name": "leaf5",
+		"parent": "body",
+		"length": 63.66,
+		"rotation": -33.76,
+		"x": 40.63,
+		"y": -68.92,
+		"transform": "onlyTranslation"
+	}
+],
+"slots": [
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "leaf6", "bone": "leaf6", "attachment": "leaf6" },
+	{ "name": "leaf5", "bone": "leaf5", "attachment": "leaf5" },
+	{ "name": "leaf4", "bone": "leaf4", "attachment": "leaf4" },
+	{ "name": "leaf3", "bone": "leaf3", "attachment": "leaf3" },
+	{ "name": "leaf2", "bone": "leaf2", "attachment": "leaf2" },
+	{ "name": "leaf1", "bone": "leaf1", "attachment": "leaf1" },
+	{ "name": "mask", "bone": "mask", "attachment": "mask" },
+	{ "name": "mouth", "bone": "mouth", "attachment": "mouth" },
+	{ "name": "eyeL", "bone": "eyeL", "attachment": "eyeL" },
+	{ "name": "eyeR", "bone": "eyeR", "attachment": "eyeR" },
+	{ "name": "white_eye", "bone": "white_eye", "attachment": "white_eye" },
+	{ "name": "black_eye", "bone": "mask3", "attachment": "black_eye" },
+	{ "name": "mouth_mask", "bone": "mouth", "attachment": "mouth_mask" },
+	{ "name": "teath2", "bone": "teath2", "attachment": "teath2" },
+	{ "name": "teath1", "bone": "teath1", "attachment": "teath1" }
+],
+"skins": [
+	{
+		"name": "enemy_coin",
+		"attachments": {
+			"black_eye": {
+				"black_eye": {
+					"path": "2/black_eye",
+					"color": "edededff",
+					"x": -26.26,
+					"y": 1.77,
+					"rotation": -90,
+					"width": 131,
+					"height": 29
+				}
+			},
+			"body": {
+				"body": {
+					"path": "2/body",
+					"color": "edededff",
+					"x": 104.85,
+					"y": 0.77,
+					"rotation": -90,
+					"width": 217,
+					"height": 200
+				}
+			},
+			"eyeL": {
+				"eyeL": {
+					"path": "2/eyeL",
+					"color": "edededff",
+					"x": 29.87,
+					"y": -1.22,
+					"rotation": -90,
+					"width": 101,
+					"height": 109
+				}
+			},
+			"eyeR": {
+				"eyeR": {
+					"path": "2/eyeR",
+					"color": "edededff",
+					"x": 31.01,
+					"y": 7.34,
+					"rotation": -90,
+					"width": 97,
+					"height": 104
+				}
+			},
+			"leaf1": {
+				"leaf1": {
+					"path": "2/leaf1",
+					"color": "edededff",
+					"x": 34.56,
+					"y": 0.75,
+					"rotation": -150.55,
+					"width": 60,
+					"height": 42
+				}
+			},
+			"leaf2": {
+				"leaf2": {
+					"path": "2/leaf2",
+					"color": "edededff",
+					"x": 33,
+					"y": -0.31,
+					"rotation": -179.49,
+					"width": 66,
+					"height": 33
+				}
+			},
+			"leaf3": {
+				"leaf3": {
+					"path": "2/leaf3",
+					"color": "edededff",
+					"x": 35.45,
+					"y": -0.8,
+					"rotation": -53.73,
+					"width": 48,
+					"height": 62
+				}
+			},
+			"leaf4": {
+				"leaf4": {
+					"path": "2/leaf4",
+					"color": "edededff",
+					"x": 30.29,
+					"y": -1.08,
+					"rotation": -32.01,
+					"width": 50,
+					"height": 38
+				}
+			},
+			"leaf5": {
+				"leaf5": {
+					"path": "2/leaf5",
+					"color": "edededff",
+					"x": 31.47,
+					"y": 2.05,
+					"rotation": 33.76,
+					"width": 57,
+					"height": 46
+				}
+			},
+			"leaf6": {
+				"leaf6": {
+					"path": "2/leaf6",
+					"color": "edededff",
+					"x": 33.45,
+					"y": -2.22,
+					"rotation": 149.93,
+					"width": 67,
+					"height": 48
+				}
+			},
+			"mask": {
+				"mask": {
+					"path": "2/mask",
+					"color": "edededff",
+					"x": 122.53,
+					"y": 9.27,
+					"rotation": -90,
+					"width": 244,
+					"height": 250
+				}
+			},
+			"mouth": {
+				"mouth": {
+					"path": "2/mouth",
+					"color": "edededff",
+					"x": -14.14,
+					"y": 0.27,
+					"rotation": -90,
+					"width": 200,
+					"height": 74
+				}
+			},
+			"mouth_mask": {
+				"mouth_mask": {
+					"type": "clipping",
+					"end": "mouth_mask",
+					"vertexCount": 25,
+					"vertices": [ -12.54, 77.14, -9.8, 65.49, -7.28, 34.23, -3.61, -7.14, -0.31, -51.97, 1.32, -80.34, -27.52, -74.02, -28.7, -73.47, -29.82, -72.41, -29.94, -70.37, -30.14, 3.38, -30.68, 15.68, -31.75, 32.24, -33.61, 55.2, -34.53, 61.86, -35.13, 65.25, -35.16, 67.03, -34.78, 68.54, -34.36, 69.55, -33.9, 70.36, -33.03, 71.13, -32.05, 71.58, -30.75, 72.07, -15, 77.25, -13.77, 77.39 ]
+				}
+			},
+			"teath1": {
+				"teath1": {
+					"path": "2/teath1",
+					"color": "edededff",
+					"x": -5.41,
+					"y": -1.98,
+					"rotation": -90,
+					"width": 136,
+					"height": 29
+				}
+			},
+			"teath2": {
+				"teath2": {
+					"path": "2/teath2",
+					"color": "edededff",
+					"x": 0.79,
+					"y": 4.07,
+					"rotation": -90,
+					"width": 148,
+					"height": 23
+				}
+			},
+			"white_eye": {
+				"white_eye": {
+					"path": "2/white_eye",
+					"color": "edededff",
+					"x": -7.02,
+					"y": 1.77,
+					"rotation": -90,
+					"width": 155,
+					"height": 46
+				}
+			}
+		}
+	},
+	{
+		"name": "enemy_normal",
+		"attachments": {
+			"black_eye": {
+				"black_eye": { "path": "1/black_eye", "x": -26.26, "y": 1.77, "rotation": -90, "width": 131, "height": 29 }
+			},
+			"body": {
+				"body": { "path": "1/body", "x": 104.85, "y": 0.77, "rotation": -90, "width": 217, "height": 200 }
+			},
+			"eyeL": {
+				"eyeL": { "path": "1/eyeL", "x": 29.87, "y": -1.22, "rotation": -90, "width": 101, "height": 109 }
+			},
+			"eyeR": {
+				"eyeR": { "path": "1/eyeR", "x": 31.01, "y": 7.34, "rotation": -90, "width": 97, "height": 104 }
+			},
+			"leaf1": {
+				"leaf1": { "path": "1/leaf1", "x": 34.56, "y": 0.75, "rotation": -150.55, "width": 60, "height": 42 }
+			},
+			"leaf2": {
+				"leaf2": { "path": "1/leaf2", "x": 33, "y": -0.31, "rotation": -179.49, "width": 66, "height": 33 }
+			},
+			"leaf3": {
+				"leaf3": { "path": "1/leaf3", "x": 35.45, "y": -0.8, "rotation": -53.73, "width": 48, "height": 62 }
+			},
+			"leaf4": {
+				"leaf4": { "path": "1/leaf4", "x": 30.29, "y": -1.08, "rotation": -32.01, "width": 50, "height": 38 }
+			},
+			"leaf5": {
+				"leaf5": { "path": "1/leaf5", "x": 31.47, "y": 2.05, "rotation": 33.76, "width": 57, "height": 46 }
+			},
+			"leaf6": {
+				"leaf6": { "path": "1/leaf6", "x": 33.45, "y": -2.22, "rotation": 149.93, "width": 67, "height": 48 }
+			},
+			"mask": {
+				"mask": { "path": "1/mask", "x": 122.53, "y": 9.27, "rotation": -90, "width": 244, "height": 250 }
+			},
+			"mouth": {
+				"mouth": { "path": "1/mouth", "x": -14.14, "y": 0.27, "rotation": -90, "width": 200, "height": 74 }
+			},
+			"mouth_mask": {
+				"mouth_mask": {
+					"type": "clipping",
+					"end": "mouth_mask",
+					"vertexCount": 25,
+					"vertices": [ -12.54, 77.14, -9.8, 65.49, -7.28, 34.23, -3.61, -7.14, -0.31, -51.97, 1.32, -80.34, -27.52, -74.02, -28.7, -73.47, -29.82, -72.41, -29.94, -70.37, -30.14, 3.38, -30.68, 15.68, -31.75, 32.24, -33.61, 55.2, -34.53, 61.86, -35.13, 65.25, -35.16, 67.03, -34.78, 68.54, -34.36, 69.55, -33.9, 70.36, -33.03, 71.13, -32.05, 71.58, -30.75, 72.07, -15, 77.25, -13.77, 77.39 ]
+				}
+			},
+			"teath1": {
+				"teath1": { "path": "1/teath1", "x": -5.41, "y": -1.98, "rotation": -90, "width": 136, "height": 29 }
+			},
+			"teath2": {
+				"teath2": { "path": "1/teath2", "x": 0.79, "y": 4.07, "rotation": -90, "width": 148, "height": 23 }
+			},
+			"white_eye": {
+				"white_eye": { "path": "1/white_eye", "x": -7.02, "y": 1.77, "rotation": -90, "width": 155, "height": 46 }
+			}
+		}
+	}
+],
+"animations": {
+	"get_hit": {
+		"slots": {
+			"black_eye": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			},
+			"white_eye": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"scale": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "x": 0.921, "y": 1.103 }
+				]
+			},
+			"leaf5": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": 11.46 }
+				]
+			},
+			"leaf4": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": 11.46 }
+				]
+			},
+			"leaf3": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": 11.46 }
+				]
+			},
+			"leaf6": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": -13.76 }
+				]
+			},
+			"leaf2": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": -13.76 }
+				]
+			},
+			"leaf1": {
+				"rotate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "angle": -13.76 }
+				]
+			},
+			"mouth": {
+				"scale": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "x": 0.951, "y": 1.055 }
+				]
+			},
+			"mask2": {
+				"translate": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "x": -2.67 }
+				],
+				"scale": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "x": 0.899 }
+				]
+			},
+			"mask": {
+				"scale": [
+					{ "curve": 0, "c2": 0.7, "c3": 0.169 },
+					{ "time": 0.1, "x": 0.895, "y": 1.092 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "angle": 1.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -1.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": 1.3 }
+				],
+				"scale": [
+					{ "y": 1.014, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.042, "y": 0.986, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "y": 1.014 }
+				]
+			},
+			"mask": {
+				"rotate": [
+					{ "angle": 1.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -1.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": 1.3 }
+				],
+				"scale": [
+					{ "x": 1.015, "y": 0.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.99, "y": 1.02, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 1.015, "y": 0.99 }
+				]
+			},
+			"teath1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 5.07, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 5.07, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"teath2": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": -6.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -6.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"mask2": {
+				"translate": [
+					{ "x": 1.39, "curve": 0.379, "c2": 0.6, "c3": 0.724 },
+					{ "time": 0.1667, "x": 2.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": -3.73, "curve": 0.242, "c3": 0.667, "c4": 0.67 },
+					{ "time": 1.3333, "x": 1.39 }
+				]
+			},
+			"white_eye": {
+				"translate": [
+					{ "y": 1.41, "curve": 0.382, "c2": 0.57, "c3": 0.737 },
+					{ "time": 0.2333, "y": 4.63, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "y": -5.94, "curve": 0.244, "c3": 0.646, "c4": 0.59 },
+					{ "time": 1.3333, "y": 1.41 }
+				]
+			},
+			"mask3": {
+				"translate": [
+					{ "y": -0.65, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.3333, "y": 4.63, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": -5.94, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 1.3333, "y": -0.65 }
+				]
+			},
+			"leaf4": {
+				"rotate": [
+					{ "angle": -26.34, "curve": 0.381, "c2": 0.55, "c3": 0.742 },
+					{ "time": 0.1333, "angle": -32.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "angle": -15.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": -32.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1333, "angle": -15.57, "curve": 0.245, "c3": 0.637, "c4": 0.56 },
+					{ "time": 1.3333, "angle": -26.34 }
+				],
+				"translate": [
+					{ "x": 8.33 }
+				]
+			},
+			"mouth": {
+				"scale": [
+					{ "x": 1.026, "y": 0.972, "curve": 0.382, "c2": 0.58, "c3": 0.731 },
+					{ "time": 0.2, "x": 1.037, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8667, "x": 0.993, "y": 1.04, "curve": 0.243, "c3": 0.655, "c4": 0.63 },
+					{ "time": 1.3333, "x": 1.026, "y": 0.972 }
+				]
+			},
+			"leaf1": {
+				"rotate": [
+					{ "angle": -5.1, "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 0.2667, "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "angle": -6.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667, "angle": -6.55, "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 1.3333, "angle": -5.1 }
+				]
+			},
+			"leaf2": {
+				"rotate": [
+					{ "angle": 0.5, "curve": 0.381, "c2": 0.55, "c3": 0.742 },
+					{ "time": 0.1333, "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "angle": -6.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1333, "angle": -6.55, "curve": 0.245, "c3": 0.637, "c4": 0.56 },
+					{ "time": 1.3333, "angle": 0.5 }
+				]
+			},
+			"leaf6": {
+				"rotate": [
+					{ "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -6.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": 4.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -6.55, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": 4.61 }
+				]
+			},
+			"leaf3": {
+				"rotate": [
+					{ "angle": 0.25, "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 0.2667, "angle": -14.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "angle": 2.47, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "angle": -14.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667, "angle": 2.47, "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 1.3333, "angle": 0.25 }
+				]
+			},
+			"leaf5": {
+				"rotate": [
+					{ "angle": -14.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 2.47, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -14.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 2.47, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": -14.57 }
+				]
+			}
+		}
+	},
+	"roll": {
+		"bones": {
+			"body": {
+				"scale": [
+					{ "y": 1.014, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 1.042, "y": 0.986, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "y": 1.014 }
+				]
+			},
+			"mask": {
+				"scale": [
+					{ "x": 1.015, "y": 0.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.99, "y": 1.02, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "x": 1.015, "y": 0.99 }
+				]
+			},
+			"teath1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "x": 5.07, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": 5.07, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8 }
+				]
+			},
+			"teath2": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "x": -6.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": -6.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8 }
+				]
+			},
+			"leaf4": {
+				"rotate": [
+					{ "angle": -21.64, "curve": 0.382, "c2": 0.57, "c3": 0.735 },
+					{ "time": 0.0667, "angle": -26.71, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "angle": -8.83, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "angle": -26.71, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -8.83, "curve": 0.243, "c3": 0.649, "c4": 0.6 },
+					{ "time": 0.8, "angle": -21.64 }
+				],
+				"translate": [
+					{ "x": 8.33 }
+				]
+			},
+			"mouth": {
+				"scale": [
+					{ "x": 1.026, "y": 0.972, "curve": 0.382, "c2": 0.58, "c3": 0.731 },
+					{ "time": 0.1333, "x": 1.037, "y": 0.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "x": 0.993, "y": 1.04, "curve": 0.243, "c3": 0.655, "c4": 0.63 },
+					{ "time": 0.8, "x": 1.026, "y": 0.972 }
+				]
+			},
+			"mask3": {
+				"translate": [
+					{ "x": 1.42, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.2, "x": -7.98, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": 10.83, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 0.8, "x": 1.42 }
+				]
+			},
+			"mask2": {
+				"scale": [
+					{ "x": 1.051, "curve": 0.371, "c2": 0.62, "c3": 0.71 },
+					{ "time": 0.0667, "x": 1.064, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "x": 0.928, "curve": 0.243, "c3": 0.689, "c4": 0.75 },
+					{ "time": 0.8, "x": 1.051 }
+				]
+			},
+			"leaf1": {
+				"rotate": [
+					{ "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "angle": -5.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "angle": -5.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 7.84 }
+				]
+			},
+			"leaf2": {
+				"rotate": [
+					{ "angle": 3.95, "curve": 0.382, "c2": 0.57, "c3": 0.735 },
+					{ "time": 0.0667, "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "angle": -5.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -5.89, "curve": 0.243, "c3": 0.649, "c4": 0.6 },
+					{ "time": 0.8, "angle": 3.95 }
+				]
+			},
+			"leaf6": {
+				"rotate": [
+					{ "angle": -1.99, "curve": 0.351, "c2": 0.4, "c3": 0.757 },
+					{ "time": 0.1333, "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -5.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "angle": 7.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -5.89, "curve": 0.265, "c3": 0.618, "c4": 0.43 },
+					{ "time": 0.8, "angle": -1.99 }
+				]
+			},
+			"leaf3": {
+				"rotate": [
+					{ "angle": -11.91, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "angle": 5.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": -11.91, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "angle": 5.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": -11.91 }
+				]
+			},
+			"leaf5": {
+				"rotate": [
+					{ "angle": 0.89, "curve": 0.351, "c2": 0.4, "c3": 0.757 },
+					{ "time": 0.1333, "angle": -11.91, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 5.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "angle": -11.91, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": 5.97, "curve": 0.265, "c3": 0.618, "c4": 0.43 },
+					{ "time": 0.8, "angle": 0.89 }
+				]
+			}
+		}
+	}
+}
+}

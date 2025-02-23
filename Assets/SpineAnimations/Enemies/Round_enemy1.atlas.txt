@@ -1,0 +1,160 @@
+
+Round_enemy1.png
+size: 436,830
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/bpdy
+  rotate: false
+  xy: 2, 587
+  size: 241, 241
+  orig: 243, 243
+  offset: 1, 1
+  index: -1
+1/earL
+  rotate: false
+  xy: 294, 86
+  size: 109, 72
+  orig: 109, 72
+  offset: 0, 0
+  index: -1
+1/earR
+  rotate: false
+  xy: 286, 12
+  size: 109, 72
+  orig: 109, 72
+  offset: 0, 0
+  index: -1
+1/eye1
+  rotate: false
+  xy: 113, 32
+  size: 144, 44
+  orig: 146, 46
+  offset: 1, 1
+  index: -1
+2/eye1
+  rotate: false
+  xy: 113, 32
+  size: 144, 44
+  orig: 146, 46
+  offset: 1, 1
+  index: -1
+1/eye2
+  rotate: false
+  xy: 2, 2
+  size: 113, 28
+  orig: 115, 30
+  offset: 1, 1
+  index: -1
+2/eye2
+  rotate: false
+  xy: 2, 2
+  size: 113, 28
+  orig: 115, 30
+  offset: 1, 1
+  index: -1
+1/eyeL
+  rotate: false
+  xy: 207, 222
+  size: 96, 105
+  orig: 98, 107
+  offset: 1, 1
+  index: -1
+1/eyeR
+  rotate: false
+  xy: 108, 236
+  size: 97, 106
+  orig: 99, 108
+  offset: 1, 1
+  index: -1
+1/hornL
+  rotate: false
+  xy: 351, 337
+  size: 83, 105
+  orig: 83, 105
+  offset: 0, 0
+  index: -1
+1/hornR
+  rotate: false
+  xy: 108, 115
+  size: 65, 119
+  orig: 65, 119
+  offset: 0, 0
+  index: -1
+1/mask
+  rotate: false
+  xy: 245, 637
+  size: 182, 191
+  orig: 182, 191
+  offset: 0, 0
+  index: -1
+1/mouth
+  rotate: false
+  xy: 305, 160
+  size: 117, 68
+  orig: 117, 68
+  offset: 0, 0
+  index: -1
+2/bpdy
+  rotate: false
+  xy: 2, 344
+  size: 241, 241
+  orig: 243, 243
+  offset: 1, 1
+  index: -1
+2/earL
+  rotate: false
+  xy: 175, 78
+  size: 109, 72
+  orig: 109, 72
+  offset: 0, 0
+  index: -1
+2/earR
+  rotate: false
+  xy: 2, 34
+  size: 109, 72
+  orig: 109, 72
+  offset: 0, 0
+  index: -1
+2/eyeL
+  rotate: false
+  xy: 245, 329
+  size: 104, 113
+  orig: 104, 113
+  offset: 0, 0
+  index: -1
+2/eyeR
+  rotate: false
+  xy: 2, 229
+  size: 104, 113
+  orig: 104, 113
+  offset: 0, 0
+  index: -1
+2/hornL
+  rotate: false
+  xy: 351, 230
+  size: 83, 105
+  orig: 83, 105
+  offset: 0, 0
+  index: -1
+2/hornR
+  rotate: false
+  xy: 2, 108
+  size: 65, 119
+  orig: 65, 119
+  offset: 0, 0
+  index: -1
+2/mask
+  rotate: false
+  xy: 245, 444
+  size: 182, 191
+  orig: 182, 191
+  offset: 0, 0
+  index: -1
+2/mouth
+  rotate: false
+  xy: 175, 152
+  size: 117, 68
+  orig: 117, 68
+  offset: 0, 0
+  index: -1

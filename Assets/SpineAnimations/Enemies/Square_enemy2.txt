@@ -1,0 +1,251 @@
+{
+"skeleton": { "hash": "QJcDGzOm+4bWMvUwkZ1lnFu9LFU", "spine": "3.8.99", "x": -118.14, "y": 0.08, "width": 240.53, "height": 251.72 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 43.19, "rotation": 90 },
+	{ "name": "mouth1", "parent": "body", "x": 45.25, "y": 0.15 },
+	{ "name": "mouth2", "parent": "body", "rotation": -90, "x": 82.95 },
+	{ "name": "body2", "parent": "body", "rotation": -90, "x": 150.7, "y": 0.23 },
+	{ "name": "eyeL", "parent": "body2", "x": -56.3, "y": 5.08 },
+	{ "name": "eyeR", "parent": "body2", "x": 57.35, "y": 5.31 },
+	{ "name": "Layer 4", "parent": "body2", "length": 101.13, "rotation": 140.32, "x": -12.95, "y": -4.89 },
+	{ "name": "Layer 6", "parent": "body2", "length": 101.21, "rotation": 40.48, "x": 14.12, "y": -5.74 },
+	{ "name": "gear", "parent": "root", "length": 46, "x": 73.38, "y": 203.31 }
+],
+"slots": [
+	{ "name": "gear", "bone": "gear", "attachment": "gear" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "eyeL", "bone": "eyeL", "attachment": "eyeL" },
+	{ "name": "eyeR", "bone": "eyeR", "attachment": "eyeR" },
+	{ "name": "mouth1", "bone": "mouth1", "attachment": "mouth1" },
+	{ "name": "mouth2", "bone": "mouth2", "attachment": "mouth2" },
+	{ "name": "Layer 4", "bone": "Layer 4", "attachment": "Layer 4" },
+	{ "name": "Layer 6", "bone": "Layer 6", "attachment": "Layer 6" }
+],
+"skins": [
+	{
+		"name": "enemy_coin",
+		"attachments": {
+			"Layer 4": {
+				"Layer 4": { "path": "2/Layer 4", "x": 49.89, "y": 0.1, "rotation": -140.32, "width": 105, "height": 69 }
+			},
+			"Layer 6": {
+				"Layer 6": { "path": "2/Layer 6", "x": 50.44, "y": -0.16, "rotation": -40.48, "width": 105, "height": 69 }
+			},
+			"body": {
+				"body": { "path": "2/body", "x": 126.08, "y": 0.14, "rotation": -90, "width": 222, "height": 240 }
+			},
+			"eyeL": {
+				"eyeL": { "path": "2/eyeL", "x": 2.39, "y": -1.69, "width": 76, "height": 58 }
+			},
+			"eyeR": {
+				"eyeR": { "path": "2/eyeR", "x": -2.26, "y": -1.42, "width": 76, "height": 59 }
+			},
+			"gear": {
+				"gear": { "path": "2/gear", "width": 98, "height": 97 }
+			},
+			"mouth1": {
+				"mouth1": { "path": "2/mouth1", "x": 2.33, "rotation": -90, "width": 236, "height": 95 }
+			},
+			"mouth2": {
+				"mouth2": { "path": "2/mouth2", "x": 0.36, "y": -5.86, "width": 229, "height": 52 }
+			}
+		}
+	},
+	{
+		"name": "enemy_normal",
+		"attachments": {
+			"Layer 4": {
+				"Layer 4": { "path": "1/Layer 4", "x": 49.89, "y": 0.1, "rotation": -140.32, "width": 105, "height": 69 }
+			},
+			"Layer 6": {
+				"Layer 6": { "path": "1/Layer 6", "x": 50.44, "y": -0.16, "rotation": -40.48, "width": 105, "height": 69 }
+			},
+			"body": {
+				"body": { "path": "1/body", "x": 126.08, "y": 0.14, "rotation": -90, "width": 222, "height": 240 }
+			},
+			"eyeL": {
+				"eyeL": { "path": "1/eyeL", "x": 2.39, "y": -1.69, "width": 76, "height": 58 }
+			},
+			"eyeR": {
+				"eyeR": { "path": "1/eyeR", "x": -2.26, "y": -1.42, "width": 76, "height": 59 }
+			},
+			"gear": {
+				"gear": { "path": "1/gear", "width": 96, "height": 95 }
+			},
+			"mouth1": {
+				"mouth1": { "path": "1/mouth1", "x": 2.33, "rotation": -90, "width": 236, "height": 95 }
+			},
+			"mouth2": {
+				"mouth2": { "path": "1/mouth2", "x": 0.36, "y": -5.86, "width": 229, "height": 52 }
+			}
+		}
+	}
+],
+"animations": {
+	"get_hit": {
+		"bones": {
+			"mouth2": {
+				"translate": [
+					{ "curve": 0, "c2": 0.63, "c3": 0.321 },
+					{ "time": 0.1, "x": -1.81 }
+				]
+			},
+			"eyeR": {
+				"scale": [
+					{ "curve": 0, "c2": 0.63, "c3": 0.321 },
+					{ "time": 0.1, "x": -0.03, "y": -0.03 }
+				]
+			},
+			"eyeL": {
+				"scale": [
+					{ "curve": 0, "c2": 0.63, "c3": 0.321 },
+					{ "time": 0.1, "x": -0.03, "y": -0.03 }
+				]
+			},
+			"Layer 4": {
+				"translate": [
+					{ "y": -1.59, "curve": 0, "c2": 0.63, "c3": 0.321 },
+					{ "time": 0.1, "y": -8.06 }
+				]
+			},
+			"Layer 6": {
+				"translate": [
+					{ "y": -1.59, "curve": 0, "c2": 0.63, "c3": 0.321 },
+					{ "time": 0.1, "y": -8.06 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"mouth2": {
+				"translate": [
+					{ "curve": 0, "c2": 0.58, "c3": 0.391 },
+					{ "time": 0.5, "x": 26.01, "curve": 0.866, "c4": 0.12 },
+					{ "time": 0.6667, "x": -1.25, "curve": 0, "c2": 0.68, "c3": 0.346 },
+					{ "time": 0.9333 }
+				]
+			},
+			"mouth1": {
+				"translate": [
+					{ "curve": 0, "c2": 0.58, "c3": 0.391 },
+					{ "time": 0.5, "x": -3.14, "curve": 0.866, "c4": 0.12 },
+					{ "time": 0.6667, "x": -1.57, "curve": 0, "c2": 0.68, "c3": 0.346 },
+					{ "time": 0.9333 }
+				]
+			},
+			"gear": {
+				"rotate": [
+					{ "curve": 0.838, "c3": 0.172, "c4": 0.99 },
+					{ "time": 0.2333, "angle": -90, "curve": 0.838, "c3": 0.172, "c4": 0.99 },
+					{ "time": 0.4667, "angle": 180, "curve": 0.838, "c3": 0.172, "c4": 0.99 },
+					{ "time": 0.7, "angle": 90, "curve": 0.838, "c3": 0.172, "c4": 0.99 },
+					{ "time": 0.9333 }
+				]
+			},
+			"eyeR": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 0.686, "y": 0.686, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 0.686, "y": 0.686, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333 }
+				]
+			},
+			"eyeL": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 0.686, "y": 0.686, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 0.686, "y": 0.686, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333 }
+				]
+			},
+			"Layer 4": {
+				"translate": [
+					{ "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "y": -1.59 }
+				]
+			},
+			"Layer 6": {
+				"translate": [
+					{ "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "y": -1.59 }
+				]
+			}
+		}
+	},
+	"roll": {
+		"bones": {
+			"mouth2": {
+				"translate": [
+					{ "curve": 0, "c2": 0.58, "c3": 0.391 },
+					{ "time": 0.3, "x": 26.01, "curve": 0.866, "c4": 0.12 },
+					{ "time": 0.4, "x": -1.25, "curve": 0, "c2": 0.68, "c3": 0.346 },
+					{ "time": 0.5333 }
+				]
+			},
+			"mouth1": {
+				"translate": [
+					{ "curve": 0, "c2": 0.58, "c3": 0.391 },
+					{ "time": 0.3, "x": -3.14, "curve": 0.866, "c4": 0.12 },
+					{ "time": 0.4, "x": -1.57, "curve": 0, "c2": 0.68, "c3": 0.346 },
+					{ "time": 0.5333 }
+				]
+			},
+			"gear": {
+				"rotate": [
+					{ "curve": 0.785, "c3": 0.235 },
+					{ "time": 0.1333, "angle": -90, "curve": 0.785, "c3": 0.235 },
+					{ "time": 0.2667, "angle": 180, "curve": 0.785, "c3": 0.235 },
+					{ "time": 0.4, "angle": 90, "curve": 0.785, "c3": 0.235 },
+					{ "time": 0.5333 }
+				]
+			},
+			"eyeR": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "x": 0.551, "y": 0.551, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.551, "y": 0.551, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333 }
+				]
+			},
+			"eyeL": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "x": 0.551, "y": 0.551, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.551, "y": 0.551, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333 }
+				]
+			},
+			"Layer 4": {
+				"translate": [
+					{ "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "y": -1.59 }
+				]
+			},
+			"Layer 6": {
+				"translate": [
+					{ "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "y": -1.59, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "y": 1.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "y": -1.59 }
+				]
+			}
+		}
+	}
+}
+}

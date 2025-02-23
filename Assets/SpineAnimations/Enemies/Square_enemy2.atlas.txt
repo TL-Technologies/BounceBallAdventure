@@ -1,0 +1,118 @@
+
+Square_enemy2.png
+size: 464,545
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Layer 4
+  rotate: false
+  xy: 225, 74
+  size: 105, 69
+  orig: 105, 69
+  offset: 0, 0
+  index: -1
+1/Layer 6
+  rotate: false
+  xy: 225, 3
+  size: 105, 69
+  orig: 105, 69
+  offset: 0, 0
+  index: -1
+1/body
+  rotate: false
+  xy: 2, 303
+  size: 222, 240
+  orig: 222, 240
+  offset: 0, 0
+  index: -1
+1/eyeL
+  rotate: false
+  xy: 79, 3
+  size: 75, 56
+  orig: 76, 58
+  offset: 0, 1
+  index: -1
+2/eyeL
+  rotate: false
+  xy: 79, 3
+  size: 75, 56
+  orig: 76, 58
+  offset: 0, 1
+  index: -1
+1/eyeR
+  rotate: false
+  xy: 2, 2
+  size: 75, 57
+  orig: 76, 59
+  offset: 0, 1
+  index: -1
+2/eyeR
+  rotate: false
+  xy: 2, 2
+  size: 75, 57
+  orig: 76, 59
+  offset: 0, 1
+  index: -1
+1/gear
+  rotate: false
+  xy: 324, 146
+  size: 96, 95
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+1/mouth1
+  rotate: false
+  xy: 226, 448
+  size: 236, 95
+  orig: 236, 95
+  offset: 0, 0
+  index: -1
+1/mouth2
+  rotate: false
+  xy: 226, 297
+  size: 229, 52
+  orig: 229, 52
+  offset: 0, 0
+  index: -1
+2/Layer 4
+  rotate: false
+  xy: 332, 75
+  size: 105, 69
+  orig: 105, 69
+  offset: 0, 0
+  index: -1
+2/Layer 6
+  rotate: false
+  xy: 332, 4
+  size: 105, 69
+  orig: 105, 69
+  offset: 0, 0
+  index: -1
+2/body
+  rotate: false
+  xy: 2, 61
+  size: 221, 240
+  orig: 222, 240
+  offset: 1, 0
+  index: -1
+2/gear
+  rotate: false
+  xy: 225, 145
+  size: 97, 96
+  orig: 98, 97
+  offset: 0, 1
+  index: -1
+2/mouth1
+  rotate: false
+  xy: 226, 351
+  size: 236, 95
+  orig: 236, 95
+  offset: 0, 0
+  index: -1
+2/mouth2
+  rotate: false
+  xy: 225, 243
+  size: 229, 52
+  orig: 229, 52
+  offset: 0, 0
+  index: -1
